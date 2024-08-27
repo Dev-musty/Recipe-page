@@ -1,0 +1,137 @@
+@media screen and (max-width: 1440px){
+body{
+    background-color: hsl(330, 100%, 98%);
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    color:  hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 20px 30px 0 30px;
+}
+
+hr{
+    margin: 30px auto;
+    color: hsl(24, 5%, 18%);
+}
+
+span{
+    font-weight: bold;
+}
+table{
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    font-weight: bold;
+}
+
+th{
+    text-align: left;
+    font-weight: normal;
+    padding: 20px 0 20px 30px;
+}
+tr{
+    border-bottom: 0.5px solid hsl(24, 5%, 18%);
+    
+}
+
+.list{
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+    line-height: 2;
+}
+.data{
+    font-family: "Outfit", sans-serif;
+    padding-left: 15px;
+}
+.preparation{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+}
+.prep-data{
+    padding-left: 15px;
+}
+
+.prep-list{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.recipe-page{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 30px;
+}
+}
+
+@media screen and (max-width: 375px){
+    body{
+        background-color: hsl(0, 0%, 100%);
+        margin: 0;
+    }
+    img{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: "Young Serif", serif;
+        font-weight: normal;
+        margin: 30px;
+    }
+    h2{
+        margin: 0 auto 10px 30px;
+    }
+    hr{
+        width: 80%;
+    }
+    p{
+        margin: 30px;
+    }
+    table{
+        width: 80%;
+        margin: auto;
+    }
+    .recipe-page{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .preparation{
+        margin: 30px;
+        width: 80%;
+    }
+    .list{
+        margin: 0 auto 0 35px;
+        font-weight: normal;
+    }
+    .data{
+        margin-right: 30px;
+    }
+    
+}
